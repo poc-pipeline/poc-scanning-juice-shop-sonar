@@ -27,6 +27,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_R }}
         with:
           args: >
-            -Dsonar.organization=poc-pipeline
+            -Dsonar.organization=therafahub
             -Dsonar.projectKey=poc-scanning-juice-shop-sonar
             -Dsonar.sources=.
