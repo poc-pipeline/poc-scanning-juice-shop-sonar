@@ -28,6 +28,7 @@ jobs:
           SONAR_HOST_URL: https://sonarcloud.io
         with:
           args: >
+            -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.organization=therafahub
             -Dsonar.projectKey=poc-scanning-juice-shop-sonar
             -Dsonar.sources=.
